@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>site.laoda</groupId>
+    <groupId>com.laoda</groupId>
     <artifactId>manager-mapper</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -12,13 +12,13 @@
 
     <parent>
         <artifactId>manager</artifactId>
-        <groupId>site.laoda</groupId>
+        <groupId>com.laoda</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <dependencies>
         <dependency>
-            <groupId>site.laoda</groupId>
+            <groupId>com.laoda</groupId>
             <artifactId>manager-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

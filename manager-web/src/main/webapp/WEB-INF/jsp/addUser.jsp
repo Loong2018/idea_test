@@ -13,7 +13,7 @@
 <body>
     <form method="post" action="/user/addUser">
         姓名：<input type="text" name="username" value="admin" placeholder="姓名"><br />
-        年龄：<input type="number" name="useage" value="12" placeholder="年龄"><br />
+        年龄：<input type="number" name="userage" value="12" placeholder="年龄"><br />
         <input type="submit" value="OKOK" />
     </form>
 </body>
