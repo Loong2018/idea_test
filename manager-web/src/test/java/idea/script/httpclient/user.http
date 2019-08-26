@@ -1,0 +1,21 @@
+GET http://{{host}}/user/doGet/100
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://{{host}}/user/doPost?username=admin&userage=15
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+DELETE http://{{host}}/user/doDelete/100
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://{{host}}/user/doPut
+Accept: */*
+Cache-Control: no-cache
